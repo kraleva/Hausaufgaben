@@ -8,7 +8,7 @@ All assignments will be Jupyter Notebooks. That you have to complete.
 The rough workflow is:
 1. You clone this repository.
 2. Edit the exercises.
-3. Push it to your **private** repository.
+3. Push it to your **private** repository. Do **not** clean the notebook's output.
 4. I fetch your code when the assignment is due. (Every Wednesday at 12:00 pm)
 5. You fetch the latest assignments from this repository.
 
@@ -34,21 +34,12 @@ Add your remote
 $ git remote add origin <your git repo url>
 ```
 
-Please clear the notebook's output before committing. Otherwise the repository size can get pretty big.
-You can use [https://github.com/kynan/nbstripout][nbstripout] which is already a dependency of this repository. Set it up using:
-
-```
-nbstripout --install
-```
-
-Otherwise you manually clean the output with `Cell -> All Output -> Clear`.
-
 To get the latest assignments into your repository see [how to sync a fork](https://help.github.com/articles/syncing-a-fork/).
 
 Paste a link to your repository into the MyCampus assignment box.
 Make sure that we have read rights on your repository.
 
-Please give us read access to your repository. Add `stsundermann` and `goehring` on Github
+Please give us read access to your repository. Add `sundermann` and `goehring` on Github
 or `ssundermann` as well as `drgoehring` on FU GitLab.
 
 Now choose either the Docker container or PyCharm to set up your environment
