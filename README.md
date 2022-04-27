@@ -9,7 +9,7 @@ The rough workflow is:
 1. You clone this repository.
 2. Edit the exercises.
 3. Push it to your **private** repository. Do **not** clean the notebook's output.
-4. I fetch your code when the assignment is due. (Every Wednesday at 12:00 pm)
+4. I fetch your code when the assignment is due. (Every Thursday at 12:00 pm)
 5. You fetch the latest assignments from this repository.
 
 It is required to use private git repositories.
